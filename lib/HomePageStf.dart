@@ -70,7 +70,7 @@ bool get count3=> count==0;
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   TextButton(
-                    //condição ? tipos de saidas possíveis
+                    //condição ? tipos de saidas possíveis separadas por :
                       onPressed:  vazio() ?  decrement: null,
                       style: TextButton.styleFrom(
                         backgroundColor: Colors.amber,
